@@ -1,0 +1,57 @@
+Input    							Processing									Output
+
+
+Get from user					Store
+Get from storage				Calculate
+
+
+SKU (int skuNum)				Store SKU number(int skuNum)		
+						
+Book Title (string bookTitle)		Store book title (string bookTitle)
+
+Author (string author)			Store name of author (string author)
+
+Description (string descrip)		Store description of book (string descrip)
+
+
+Price (double price)				Store double price
+
+Does the user know the
+SKU ofthe book? Y/N
+
+	Yes							Prompt user to enter SKU (int skuNum)			Display SKU, book title, author, description
+								                                                                                                and price
+
+	No							Prompt user to enter book title(string bookTitle)	Display message "Enter the title of the book"
+																				to the user
+Does the user know the 
+title of the book? Y/N
+
+	Yes							Prompt user to enter book title					Display SKU, book title, author, description
+								(string bookTitle)                                                                and price
+
+
+	No							Prompt user to enter author's name				Display message "Enter the name of the author"
+								(string author)									to the user
+								
+
+Does the user know 
+the title OR the author
+of book? Y/N
+
+	Yes							Prompt user to input title, author  or				Display the SKU, book title, author and price
+ 								both 
+
+	No							Restart the program and prompt the user			Display message "Enter the SKU of the book"			
+								for the SKU										to the user
+
+Does the user want to look
+up another book? Y/N
+
+	Yes							Restart the program and prompt the				Display message "Enter the SKU of the book"
+								user to enter the SKU							to the user
+
+	No							End the program and show all book info			Display message "Enjoy your books and Have a
+								to the user										nice day!" to the user
+
+					
