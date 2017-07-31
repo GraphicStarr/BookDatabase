@@ -40,7 +40,7 @@ public class BookData {
 				
 		do{	
 			System.out.println("Does the user know the SKU of the book? Y/N");
-			skuNum = scanner.nextInteger();
+			skuNum = scanner.nextLine();
 			
 			if(answer.equalsIgnoreCase("y")){
 			System.out.println("Enter the SKU of the book");
@@ -52,23 +52,29 @@ public class BookData {
 			}
 			if(answer.equalsIgnoreCase("y")){
 				System.out.println("Enter the title of book");
+				bookTitle = scanner.nextLine();
 				
 	  // Prompt the user to enter the title or the author of book
 			}else{
 				System.out.println("Does the user know the title or author of book Y/N");
-			
+				author = scanner.nextLine();
+				
 			}if (answer.equalsIgnoreCase("y")){
 			else if{ 
-				System.out.println("Enter the author of book"); 
+				System.out.println("Enter the author of book");
+				author = scanner.nextLine();
+				
 			}else if{
 				System.out.prinln("Enter the title of book");
+				bookTitle = scanner.nextLine();
 			}
 			else{
 				System.out.println("Does the user want to look up another book Y/N");
+				String = scanner.nextLine();
 			
 	  // Prompt the user to look up another book
 			}if (answer.equalsIgnoreCase("y")){
-				System.otu.println()
+				System.out.println()
 			}
 				
 				
